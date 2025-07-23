@@ -521,7 +521,7 @@ function ring1() {
 
 return new Promise((resolve,reject)=>{
 
-modelLoader.load('models/headringSqe.glb',
+modelLoader.load('/models/headringSqe.glb',
 (model)=>{
 ring3=model.scene.children[0];                       
 scene.add(ring3);
@@ -636,7 +636,7 @@ resolve("1");
 
 function ring2(){
 return new Promise((resolve,reject)=>{
-modelLoader.load('models/ringG.glb',
+modelLoader.load('/models/ringG.glb',
 (loadModel)=>{
 console.log(loadModel);
 ring=loadModel.scene.children[0]
@@ -793,7 +793,7 @@ resolve('model2')
 function roundRing(){
 return new Promise((resolve,reject)=>{
 
-modelLoader.load('models/rounded ring1.glb',
+modelLoader.load('/models/rounded ring1.glb',
 
 (load)=>{
     console.log(load,'Loaded');
