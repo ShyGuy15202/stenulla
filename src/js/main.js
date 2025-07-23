@@ -39,7 +39,7 @@ function mobileViweChecker() {
 
 
 //HDRI
-let environmentMap=textureLoader.load('models/gem_2.hdr',
+let environmentMap=textureLoader.load('/models/gem_2.hdr',
 (e)=>{
     console.log('loaded hdri')
     e.mapping=THREE.EquirectangularReflectionMapping},
