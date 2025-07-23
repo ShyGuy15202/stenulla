@@ -17,12 +17,12 @@ scroll-behavior: smooth;
 
 @font-face {
   font-family: 'KK';
-  src: url('../font/kangoro-regular.otf');}
+  src: url('/font/kangoro-regular.otf');}
   
 
   @font-face {
     font-family: 'KKa';
-    src: url('../font/Restora.otf');}
+    src: url('/font/Restora.otf');}
 
 
                                                 
